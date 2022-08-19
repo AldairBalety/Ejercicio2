@@ -13,9 +13,9 @@
 	$p2x= 10; $p2y= 400;//punta izquierda A
 	$p3x = 1200; $p3y = 450;//punta derecha C
 
-    //$p1x = 200; $p1y = 100;
-	//$p2x= 100; $p2y= 600;
-	//$p3x = 1000; $p3y = 400;
+    $p1x = 200; $p1y = 100;
+	$p2x= 100; $p2y= 600;
+	$p3x = 1000; $p3y = 400;
 
 	$e = new Ecuacion($p2x, $p2y, $p3x ,$p3y);
 	$eL1 = new Ecuacion2($p1x, $p1y, $e->Ma);
